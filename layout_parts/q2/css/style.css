@@ -14,13 +14,13 @@
   background-color: #eff3f4;
 }
 
-.top_img {
+.img_left {
   margin-right: 20px;
   margin-bottom: 10px;
   float: left;
 }
 
-.bottom_img {
+.img_right {
   margin-left: 20px;
   margin-bottom: 10px;
   float: right;
