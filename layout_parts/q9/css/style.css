@@ -1,5 +1,39 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.square_box {
+  position: relative;
+  width: 500px;
+  margin: 0 auto;
+  border: solid 5px #222;
+  border-radius: 30px;
+  padding: 20px;
+}
 
+.square_box:before {
+  content: "";
+  position: absolute;
+  bottom: -38px;
+  left: 50px;
+  margin-left: -20px;
+  border: 20px solid transparent;
+  border-top: 20px solid #fff;
+  z-index: 2;
+}
+
+.square_box:after {
+  content: "";
+  position: absolute;
+  bottom: -50px;
+  left: 50px;
+  margin-left: -25px;
+  border: 25px solid transparent;
+  border-top: 25px solid #222;
+  z-index: 1;
+}
+
+.q9_letter {
+  font-size: 16px;
+  line-height: 16px;
+}
 /* 回答はここに書いてね */

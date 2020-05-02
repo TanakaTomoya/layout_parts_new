@@ -1,5 +1,98 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
 
+
+.floatbox {
+  float: left;
+  font-size: 16px;
+  width: 225px;
+  box-sizing: border-box;
+  margin-left: 50px;
+}
+
+.floatbox:first-child {
+  margin-left: 0;
+}
+
+
+.tablebox {
+  display: table;
+}
+
+.tablebox_textbox {
+  display: table-cell;
+  vertical-align: middle;
+  padding-right: 50px;
+}
+
+.tablebox_textbox:last-child {
+  padding-right: 0;
+}
+
+.tablebox_text {
+  font-size: 16px;
+  width: 225px;
+  box-sizing: border-box;
+}
+
+
+.inline-block_box_gap {
+  /* inline-block の隙間を埋める */
+  font-size: 0;
+}
+.inline-block_box {
+  display: inline-block;
+  vertical-align: middle;
+  width: 225px;
+  font-size: 16px;
+  width: 225px;
+  box-sizing: border-box;
+  margin-left: 50px;
+}
+
+.inline-block_box:first-child {
+  margin-left: 0;
+}
+
+
+.flex_inner {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.flex_box {
+  font-size: 16px;
+  width: 225px;
+  box-sizing: border-box;
+}
+
+
+.last_ib_gap {
+  font-size: 0;
+}
+
+.last_ib_box {
+  display: inline-block;
+  vertical-align: middle;
+  vertical-align: top;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.ib_fixe_box {
+  width: 300px;
+}
+
+.ib_variable_box {
+  width: 100%;
+  margin-left: -300px;
+  padding-left: 350px;
+}
 /* 回答はここに書いてね */

@@ -11,7 +11,8 @@
 
 .diamond {
   position: absolute;
-  height: 100px;
+  /* line-hightあるからhight不要 */
+  /* height: 100px; */
   width: 100px;
   text-align: center;
   font-size: 30px;
@@ -28,21 +29,27 @@
 
 .n2 {
   top: 120px;
-  left: 280px;
+  /* 右から追うのもあり */
+  /* left: 280px; */
+  right: 120px;
   z-index: 2;
   background-color: #7084de;
 }
 
 .n3 {
   top: 200px;
-  left: 360px;
+  /* 右から追うのもあり */
+  /* left: 360px; */
+  right: 40px;
   z-index: 3;
   background-color: #d0ecea;
 }
 
 .n4 {
   top: 280px;
-  left: 280px;
+  /* 右から追うのもあり */
+  /* left: 280px; */
+  right: 120px;
   z-index: 4;
   background-color: #8b7a5e;
 }

@@ -6,15 +6,8 @@
   width: 100%;
 }
 
-tr:nth-child(odd) {
-  background-color: #ecf1f2;
-}
-
-tr:last-child {
-  border-top: dashed #000 2px;
-}
-
-th {
+/* tr達が裸なので前にテーブル置いてあげると良い! */
+.main_table th {
   font-size: 18px;
   line-height: 26px;
   padding: 10px;
@@ -23,11 +16,19 @@ th {
   background-color: #2244aa;
 }
 
-td {
+.main_table td {
   font-size: 16px;
   line-height: 22px;
   padding: 10px;
   text-align: center;
   border: solid #dedede 1px;
+}
+
+.main_table tbody tr:nth-child(even) {
+  background-color: #ecf1f2;
+}
+
+.main_table tbody tr:last-child {
+  border-top: dashed #000 2px;
 }
 /* 回答はここに書いてね */
