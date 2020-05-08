@@ -14,8 +14,7 @@
   content: "";
   position: absolute;
   bottom: -38px;
-  left: 50px;
-  margin-left: -20px;
+  left: 30px;
   border: 20px solid transparent;
   border-top: 20px solid #fff;
   z-index: 2;
@@ -25,8 +24,7 @@
   content: "";
   position: absolute;
   bottom: -50px;
-  left: 50px;
-  margin-left: -25px;
+  left: 25px;
   border: 25px solid transparent;
   border-top: 25px solid #222;
   z-index: 1;
