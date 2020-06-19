@@ -10,9 +10,14 @@
   padding: 20px;
 }
 
-.square_box:before {
+.square_box:before,
+.square_box:after {
   content: "";
   position: absolute;
+}
+/* 修正:共通化できる項目は共通化した方がいい */
+
+.square_box:before {
   bottom: -38px;
   left: 30px;
   border: 20px solid transparent;
@@ -21,8 +26,6 @@
 }
 
 .square_box:after {
-  content: "";
-  position: absolute;
   bottom: -50px;
   left: 25px;
   border: 25px solid transparent;

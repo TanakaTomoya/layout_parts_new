@@ -3,7 +3,7 @@
 /* 回答はここに書いてね */
 .img_pos {
   position: relative;
-  font: 0px;
+  /* font: 0px; */ /* 修正:デベロッパーツールで無効項目があると良くない */
   width: 500px;
   height: 333px;
   margin: 0 auto;
